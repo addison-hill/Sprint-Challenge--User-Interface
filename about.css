@@ -1,0 +1,102 @@
+body {
+    width: 900px;
+    margin:0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    align-items: baseline;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-about-pic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 750px;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 5px 0;
+}
+
+.middle-about .strategy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    border: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    margin-right: 23px;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.btn{
+    background: white;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding: 6px 10px 6px 10px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+footer nav{
+    display: flex;
+    background: black;
+    width: 850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+footer nav a {  
+    color: white;
+    text-decoration: none;
+}
+
+.top-ctn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottom-about {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 30px;
+}

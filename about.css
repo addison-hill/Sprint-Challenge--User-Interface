@@ -56,12 +56,20 @@ header nav a {
     margin-right: 23px;
 }
 
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
 
 .btn{
     background: white;
     border-radius: 10px;
     border: 1.5px solid black;
     padding: 6px 10px 6px 10px;
+    animation-name: example;
+    animation-duration: 4s;
 }
 
 footer nav{
